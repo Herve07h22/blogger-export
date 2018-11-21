@@ -3,4 +3,4 @@
   publish = "dist"
 
 [template.environment]
-  MEDIUM_FEED = "The URL of the Medium feed to pull in"
+  BLOGGER_FEED = "The URL of the blogger feed to pull in"
