@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.BLOGGER_FEED ||'http://france.googleblog.com/feeds/posts/default';
+var url = process.env.BLOGGER_FEED ? process.env.BLOGGER_FEED + '/feeds/posts/default' : 'http://france.googleblog.com/feeds/posts/default';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
