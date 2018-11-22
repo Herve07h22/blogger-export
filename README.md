@@ -1,6 +1,13 @@
-# Medium Export
+# Blogger Export
 
-An example of how easy it can be to generate a site based on an RSS feed. In this instance focussed on Blogger's RSS Feeds
+Looking for a headless CMS ? What about blogger.com ?
+
+That might sound weird, but blogger.com is :
+- free, 
+- easy to use to write posts
+- easy to connect to a Static Site Generator
+
+This is an example of how easy it can be to generate the blog of a static site from a collection of posts hosted on blogger.
 
 
 ## Quick start
@@ -12,7 +19,8 @@ You can get your own version of this site by just clicking the button below, and
 
 ### What will clicking that button do?
 
-Fair question. After clicking the button, [Netlify](https://www.netlify.com) will ask for your permission to clone this repo into your own GitHub account, and then create a new site for you in Netlify linked to that repo. It will also ask for a feed to ingest at build time (see below if for some to pinch if you need to).
+Fair question. After clicking the button, [Netlify](https://www.netlify.com) will ask for your permission to clone this repo into your own GitHub account, and then create a new site for you in Netlify linked to that repo. 
+It will also ask for a blogspot URL (without ending "/") to ingest at build time (see below if for some to pinch if you need to).
 
 Then it will build and deploy a new site for you, complete with hosting and continuous deployment all configured.
 
