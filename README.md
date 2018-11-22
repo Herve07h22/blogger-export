@@ -9,6 +9,15 @@ That might sound weird, but blogger.com is :
 
 This is an example of how easy it can be to generate the blog of a static site from a collection of posts hosted on blogger.
 
+## Blogger configuration
+
+You have to configure your blog to keep it unvisible :
+- In "confidentiality" section, uncheck radio boxes related to SEO 
+- Remove the following code in the HTML header of your theme : 
+
+```html
+<b:include data='blog' name='all-head-content'/>
+```
 
 ## Quick start
 
